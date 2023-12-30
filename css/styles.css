@@ -598,6 +598,7 @@ background-color: #31d0aa;
     gap: 16px;
     list-style-type: none;
 }
+/*modal*/
 .footer-modal-container {
     position: fixed;
     top: 0;
@@ -650,5 +651,13 @@ background-color: #404bbf;
 border: none;
 fill: #ffffff
 }
-
+.subscribe {
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+    
+}
 
