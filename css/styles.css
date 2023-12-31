@@ -598,7 +598,17 @@ background-color: #31d0aa;
     list-style-type: none;
 }
 /*modal*/
+.text-modal{
+    font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--NAVY-BLUE);
+  margin-bottom: 16px;
+}
 .footer-modal-container {
+    padding: 72px 24px 24px 24px 24px;
     position: fixed;
     top: 0;
     left: 0;
