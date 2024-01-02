@@ -607,6 +607,17 @@ background-color: #31d0aa;
   color: var(--NAVY-BLUE);
   margin-bottom: 16px;
 }
+.text-icon-modal {
+    margin-bottom: 8px;
+}
+.form-label {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var(--icon-color);
+    display: block;
+    margin-bottom: 4px;
+}
 .footer-modal-container {
     position: fixed;
     top: 0;
