@@ -733,10 +733,7 @@ fill: #ffffff;
 .container-input input:focus + .icon-form {
     fill: #4D5AE5;
   }
-  .div-comment{
-    margin-bottom: 16px;
 
-  }
 .svg-subscribe{
     margin-left: 16px;
 }
