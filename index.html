@@ -460,35 +460,42 @@
           </svg>
         </button>
         <p class="text-modal">Leave your contacts and we will call you back</p>
-      <form class="form">
-        <div class="text-icon-modal">
-        <label class="form-label" for="user-name">Name</label>
-          <div class="container-input">
-          <input class="form-input" type="text" id="user-name" name="user-name" >
-            <svg class="icon-form" width="18" height="24">
-              <use href="./images/icons.svg#icon-person-black"></use>
-            </svg>
-        </div>
-        <div class="text-icon-modal">
-          <label class="form-label" for="Phone">Phone</label>
+        <form class="form">
+          <!-- Primul element copil al formularului -->
+          <div class="text-icon-modal">
+            <label class="form-label" for="user-name">Name</label>
             <div class="container-input">
-            <input class="form-input" type="text" id="Phone" name="Phone" >
+              <input class="form-input" type="text" id="user-name" name="user-name">
+              <svg class="icon-form" width="18" height="24">
+                <use href="./images/icons.svg#icon-person-black"></use>
+              </svg>
+            </div>
+          </div>
+    
+          <!-- Al doilea element copil al formularului -->
+          <div class="text-icon-modal">
+            <label class="form-label" for="Phone">Phone</label>
+            <div class="container-input">
+              <input class="form-input" type="text" id="Phone" name="Phone">
               <svg class="icon-form" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
+            </div>
           </div>
-          </div>
+    
+          <!-- Al treilea element copil al formularului -->
           <div class="text-icon-modal">
             <label class="form-label" for="Email">Email</label>
-              <div class="container-input">
-              <input class="form-input" type="text" id="Email" name="Email" >
-                <svg class="icon-form" width="18" height="24">
-                  <use href="./images/icons.svg#icon-email-black"></use>
-                </svg>
+            <div class="container-input">
+              <input class="form-input" type="text" id="Email" name="Email">
+              <svg class="icon-form" width="18" height="24">
+                <use href="./images/icons.svg#icon-email-black"></use>
+              </svg>
             </div>
-       </div>
+          </div>
+        </form>
       </div>
-    </div>
+    </div>    
     <script src="./js/modal.js"></script>
   </body>
 </html>
