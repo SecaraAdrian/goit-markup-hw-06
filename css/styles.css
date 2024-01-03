@@ -672,7 +672,7 @@ background-color: #31d0aa;
 .button-open-close:focus {
 background-color: #404bbf;
 border: none;
-fill: #ffffff
+fill: #ffffff;
 }
 .button-form {
     min-width: 165px;
