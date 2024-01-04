@@ -683,6 +683,10 @@ background-color: #31d0aa;
 .textarea:focus{
     border-color: #4D5AE5;
 }
+.span-checkbox{
+    width: 16;
+    height: 16;
+}
 .button-open-close {
     position: absolute;
     top: 24px;
