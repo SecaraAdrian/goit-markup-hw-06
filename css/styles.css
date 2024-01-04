@@ -686,7 +686,9 @@ background-color: #31d0aa;
 .div-checkbox .span-checkbox {
     background-color: var(--color1, #404bbf); 
 }
-
+.privacy-link{
+    color: var(--IRIS);
+}
 .div-checkbox input:checked + label .span-checkbox {
     border: none; 
    fill: var(--CLOUD);  
