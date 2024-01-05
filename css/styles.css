@@ -676,6 +676,9 @@ background-color: #31d0aa;
     fill: var(--CLOUD);
 
 }
+.inp:focus + .form-label .privacy-policy {
+    outline: 1px solid #404bbf;
+  }
 .privacy-policy{
     width: 16px;
     height: 16px;
