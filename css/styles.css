@@ -634,6 +634,7 @@ background-color: #31d0aa;
     pointer-events: none;
 }
 .modal-box{
+    margin-bottom: 8px;
     padding-top: 72px;
     padding-right: 24px;
     padding-bottom: 24px;
