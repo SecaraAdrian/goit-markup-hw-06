@@ -670,7 +670,7 @@ background-color: #31d0aa;
 .div-checkbox{
     margin-bottom: 24px;
 }
-.inp:checked + .from-label span:first-child{
+.inp:checked + .form-label .privacy-policy {
     border: none;
     background-color: var(--OCEAN);
     fill: var(--CLOUD);
