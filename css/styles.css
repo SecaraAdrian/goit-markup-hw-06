@@ -672,8 +672,20 @@ background-color: #31d0aa;
 
 }
 .inp:checked + .form-label .privacy-policy .svg-checkbox {
-    fill: #F4F4FD;  
+    fill: #404bbf;  
   }
+  .inp:checked + .form-label .svg-checkbox {
+    fill: #404bbf; 
+  }
+  .svg-checkbox {
+    fill: transparent;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .svg-checkbox use {
+    pointer-events: none;
+  }
+
+
 .user-comment{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
