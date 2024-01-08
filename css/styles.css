@@ -346,20 +346,36 @@ body {
 }
 .nav-link {
     text-decoration: none;
-font-size: 16px;
-    font-weight: 400;
+    font-size: 16px;
+    font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
     /* color: #404bbf; */
 }
+.nav-link::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+    width: 100%;
+    visibility: hidden;
+    
+}
+.nav-link:focus::after{
+    visibility: visible;
+}
+.nav-link:hover::after{
+    visibility: visible;
+}
 .nav-link:hover {
     color: #404bbf;
 
 }
-/* .nav-link:active{
-    color: #2E2F42; */
 .nav-link:focus {
     color: #404bbf;
 }
@@ -407,9 +423,9 @@ font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--SLATE);
-    border-left: px solid #E7E9FC;
+    /* border-left: px solid #E7E9FC;
         border-right: px solid #E7E9FC;
-        text-align: left;
+        text-align: left; */
     /* margin-bottom: 16px; */
  }
  .phara:focus,
@@ -417,6 +433,8 @@ font-size: 16px;
     transform: translateY(0%);
  }
  .p-team {
+    padding: 0;
+    margin: 0;
      text-align: center;
  }
  /* section three */
@@ -446,7 +464,14 @@ font-size: 16px;
     padding: 120px 0;
  }
  .team-container{
+    margin: 0 auto;
     padding: 32px 0;
+    display: flex;
+    width: 232px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
  }
  .four{
     display: flex;
@@ -474,6 +499,7 @@ font-size: 16px;
             0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .social-list{
+    margin-top: 8px;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -552,7 +578,6 @@ font-size: 16px;
     fill: #ffffff;
 }
 /* footer */
-
 .s-m-footer{
     display: flex;
     align-items: baseline;
@@ -593,6 +618,7 @@ background-color: #31d0aa;
     margin-right: 120px;
 }
 .s-m-list{
+    margin-right: 120px;
     display: flex;
     gap: 16px;
     list-style-type: none;
@@ -777,7 +803,7 @@ background-color: #31d0aa;
     border: 1px solid rgba(0, 0, 0, 0.1);
     padding: 0;
     cursor: pointer;
-    transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%); */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-open-close:hover,
